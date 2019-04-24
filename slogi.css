@@ -1,0 +1,120 @@
+:root {
+	--morda: #739ad0;
+	--rjava: #6b3305;
+	--svetlo-rjava: #efe9e7;
+	--bela: #fff;
+	--crna: #000;
+	--obroba: 1px solid #ddd;
+	--rob: 20px;
+}
+html,body{
+	margin: 0;
+	padding: 0;
+	font-family: arial, tahoma, helvetica, sans-serif;
+	font-size: 13px;
+	color: var(--crna);
+}
+body{
+	background: url('./Grafika/Ozadje1.PNG') center;
+	margin: 0 auto; 
+}
+
+#Navigacija{
+	background-color: black;
+	background-size: cover;
+	height: 150px;
+	width: 2000px;
+	align-items: center;
+}
+#Navigacija ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	list-style-type: none; 
+	height: 30px;
+	margin: center;
+}
+#Navigacija a:link,
+#Navigacija a:visited,
+#Navigacija a:hover,
+#Navigacija a:active {
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	border-bottom: 0px;
+	padding: 7px 10px;
+	transition: all .75s ease;
+	transition: all 1s ease;
+	align-items: center;
+}
+#Navigacija a:hover
+#Navigacija a:active{
+	background-color: rgba(115,155,210,.35);
+} 
+#Vsebina {
+    background-color: transparent; 
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+#Clanek {
+	background-color: transparent;
+	min-height: 350px;
+	box-sizing: border-box;
+	margin: center;
+	min-width: 1px;
+	padding: var(--rob);
+}
+#Sorodno {
+	background-color: var(--svetlo-rjava);
+	padding: var(--rob);
+	border-radius: var(--rob);
+	margin: 10px 0;
+	box-sizing: border-box;
+	min-height: 350px;
+    width: 250px;
+}
+.Tabela{
+	color: white;
+}
+.Slika{
+	margin: 200px 500px;
+	height: 600px;
+	width:  1000px;
+}
+
+h1{
+	font-size: 60px;
+	font-weight: normal;
+    color: green;
+	border-bottom: 1px solid var(--obroba);
+	text-align: center;s
+}
+h2{
+	font-size: 50px;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+}
+p{
+	font-size: 25px;
+	font-weight: normal;
+	color: white; 
+	text-align: center;
+}
+h3{
+	color: white;
+	font-weight: normal;
+	font-size: 30px;
+	text-align: center;
+}
+h4{
+	color: white;
+	font-size: 60px;
+}
